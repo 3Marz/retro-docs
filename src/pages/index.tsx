@@ -16,6 +16,8 @@ function HomepageHeader() {
 		<div style={{display: "flex", justifyContent: "center", alignItems: "center", width: "100%"}}>
 			<img style={{
 				width: 300,
+        filter: "drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5))",
+        margin: 5,
 			}} src={require("@site/static/img/favicon.png").default} />
 		</div>
 		<p className="hero__subtitle">
